@@ -1,0 +1,424 @@
+/* =====================================================
+   MAIRE.CSS — Styles spécifiques à maire_adama_bictogo.html
+   (hero maire, biographie, parcours, réalisations, vision)
+   ===================================================== */
+
+/* ===== HERO MAIRE ===== */
+.hero-mayor {
+    position: relative;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(14, 61, 26, 0.95) 0%, rgba(26, 95, 42, 0.9) 50%, rgba(247, 127, 0, 0.3) 100%);
+}
+
+.hero-mayor::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -10%;
+    width: 800px;
+    height: 800px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.hero-mayor::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: -5%;
+    width: 600px;
+    height: 600px;
+    background: rgba(247,127,0,0.08);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.hero-mayor .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-mayor .hero-content { color: white; }
+
+.hero-mayor .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.hero-mayor .hero-badge i { color: var(--gold); }
+
+.hero-mayor .hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.hero-mayor .hero-content .title {
+    font-size: 1.5rem;
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.hero-mayor .hero-content p {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 30px;
+    line-height: 1.8;
+    max-width: 550px;
+}
+
+.hero-mayor .hero-stats {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-mayor .stat-item {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 25px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.hero-mayor .stat-number {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--gold);
+    display: block;
+}
+
+.hero-mayor .stat-label {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.8);
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-mayor .hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mayor .hero-image-frame {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+}
+
+.hero-mayor .hero-image-frame img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 3;
+}
+
+.hero-mayor .hero-image-frame::before {
+    content: '';
+    position: absolute;
+    top: -20px; left: -20px; right: -20px; bottom: -20px;
+    background: linear-gradient(135deg, rgba(212, 168, 67, 0.3), rgba(247, 127, 0, 0.2));
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.hero-mayor .hero-image-frame::after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ===== BIOGRAPHY ===== */
+.biography { padding: 100px 0; background: white; }
+
+.bio-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.bio-text p {
+    margin-bottom: 20px;
+    color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.bio-text p:first-child {
+    font-size: 1.1rem;
+    color: var(--primary-dark);
+    font-weight: 600;
+}
+
+.bio-highlights {
+    background: var(--bg-cream);
+    padding: 40px;
+    border-radius: var(--radius);
+    border-left: 5px solid var(--secondary);
+}
+
+.bio-highlights h3 {
+    color: var(--primary-dark);
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.highlight-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.highlight-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.highlight-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.highlight-text h4 {
+    color: var(--text-dark);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.highlight-text p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin: 0;
+}
+
+/* ===== PARCOURS ===== */
+.parcours { padding: 100px 0; background: var(--bg-light); }
+
+.parcours-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.parcours-card {
+    background: white;
+    padding: 40px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid rgba(0,0,0,0.03);
+}
+
+.parcours-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+.parcours-card .icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--secondary), var(--primary));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.parcours-card h3 {
+    font-size: 1.3rem;
+    color: var(--primary-dark);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.parcours-card .period {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.parcours-card p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* ===== ACHIEVEMENTS ===== */
+.achievements { padding: 100px 0; background: white; }
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.achievement-card {
+    text-align: center;
+    padding: 40px 30px;
+    background: var(--bg-cream);
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+    background: white;
+    box-shadow: var(--shadow-lg);
+}
+
+.achievement-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--secondary), var(--primary));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.2rem;
+    margin: 0 auto 25px;
+}
+
+.achievement-card h3 {
+    font-size: 1.3rem;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.achievement-card p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* ===== VISION ===== */
+.vision {
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(14, 61, 26, 0.95) 0%, rgba(26, 95, 42, 0.9) 50%, rgba(247, 127, 0, 0.3) 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.vision::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 600px;
+    height: 600px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.vision .container { position: relative; z-index: 2; }
+
+.vision-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vision-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.vision-quote {
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: rgba(255,255,255,0.95);
+    position: relative;
+    padding: 0 40px;
+}
+
+.vision-quote::before,
+.vision-quote::after {
+    content: '"';
+    font-size: 4rem;
+    color: var(--gold);
+    position: absolute;
+    opacity: 0.3;
+}
+
+.vision-quote::before { left: 0; top: -20px; }
+.vision-quote::after { right: 0; bottom: -30px; }
+
+/* ===== RESPONSIVE (spécifique page Maire) ===== */
+@media (max-width: 1024px) {
+    .hero-mayor .container { grid-template-columns: 1fr; }
+    .bio-content { grid-template-columns: 1fr; }
+    .parcours-grid { grid-template-columns: 1fr; }
+    .achievements-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-mayor .hero-content h1 { font-size: 2.5rem; }
+}
+
+@media (max-width: 768px) {
+    .hero-mayor .hero-content h1 { font-size: 2rem; }
+    .hero-mayor .hero-content .title { font-size: 1.2rem; }
+    .section-header h2 { font-size: 2rem; }
+    .achievements-grid { grid-template-columns: 1fr; }
+
+    .cta-buttons { flex-direction: column; align-items: center; }
+
+    .btn { width: 100%; justify-content: center; }
+}

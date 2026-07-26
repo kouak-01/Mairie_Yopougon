@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Radio Yopougon - La radio officielle de la Mairie de Yopougon. Informations, programme, spécial vacances et actualités en direct.">
+    <title>Radio Yopougon 94.5 FM - Mairie de Yopougon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/radio.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +225 27 23 45 28 20</span>
+                <span><i class="fas fa-envelope"></i> contact@yopougon.ci</span>
+                <span><i class="fas fa-clock"></i> Lun - Ven : 7h30 - 16h00</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><img src="images/logo-2.jpg" style="height: 100%; width: 100%; object-fit: cover;" alt="Logo Mairie de Yopougon"></div>
+                <div class="logo-text">
+                    <h1>Mairie de Yopougon</h1>
+                    <span>District d'Abidjan </span>
+                </div>
+            </a>
+
+            <div class="main-nav" id="mainNav">
+                <ul>
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Ma Mairie <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                                    <span><i class="fas fa-user-tie item-icon"></i> Le Maire</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="maire_adama_bictogo.html">Mot du Maire</a></li>
+                                    <li><a href="maire_adama_bictogo.html">Biographie</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                                    <span><i class="fas fa-sitemap item-icon"></i> Organisation politique et administrative</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="#">Secrétariat Général</a></li>
+                                    <li><a href="#">La Municipalité</a></li>
+                                    <li><a href="#">Le Conseil Municipal</a></li>
+                                    <li><a href="#">Commissions du Conseil Municipal</a></li>
+                                    <li><a href="#">Directions Techniques et Administratives</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                                    <span><i class="fas fa-newspaper item-icon"></i> Actualités de la commune</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="index.html#actualites">Actualités</a></li>
+                                    <li><a href="#">Vidéothèque</a></li>
+                                    <li><a href="#">Opportunités d'affaires</a></li>
+                                    <li><a href="#">Agenda</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-diagram-project item-icon"></i> Nos Projets</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="index.html#demande">Services en ligne</a></li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Radio Yopougon <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="radio.html#info"><i class="fas fa-circle-info item-icon"></i> Informations générales</a></li>
+                            <li><a href="radio.html#programme"><i class="fas fa-list item-icon"></i> Programme de la radio</a></li>
+                            <li><a href="radio.html#vacances"><i class="fas fa-umbrella-beach item-icon"></i> Spécial vacances</a></li>
+                            <li><a href="radio.html#facebook"><i class="fab fa-facebook item-icon"></i> Facebook</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Yop, Ma Commune <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fas fa-scroll item-icon"></i> Histoire</a></li>
+                            <li><a href="#"><i class="fas fa-landmark item-icon"></i> Histoire politique</a></li>
+                            <li><a href="#"><i class="fas fa-map item-icon"></i> Géographie</a></li>
+                            <li><a href="#"><i class="fas fa-people-group item-icon"></i> Gouvernance participative</a></li>
+                            <li><a href="#"><i class="fas fa-chart-line item-icon"></i> Économie</a></li>
+                            <li><a href="#"><i class="fas fa-briefcase item-icon"></i> Emplois</a></li>
+                            <li><a href="#"><i class="fas fa-futbol item-icon"></i> Sport et culture</a></li>
+                            <li><a href="#"><i class="fas fa-umbrella-beach item-icon"></i> Tourisme et loisirs</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Contacts et Accessibilité <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html#contact"><i class="fas fa-map-marker-alt item-icon"></i> Coordonnées et plans d'accès</a></li>
+                            <li><a href="index.html#contact"><i class="fas fa-envelope-open-text item-icon"></i> Formulaire de contact</a></li>
+                            <li><a href="#"><i class="fas fa-share-nodes item-icon"></i> Réseaux sociaux</a></li>
+                            <li><a href="#"><i class="fas fa-circle-question item-icon"></i> FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-cta"><a href="index.html#demande">Démarches en ligne</a></li>
+                </ul>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- HERO RADIO -->
+    <section class="hero-radio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="live-badge">
+                    <span class="live-dot"></span> En direct maintenant
+                </div>
+                <h1>Radio <span>Yopougon</span></h1>
+                <div class="frequency-line">
+                    <i class="fas fa-broadcast-tower"></i> 94.5 FM — La voix de Yop City
+                </div>
+                <p>La radio officielle de la Mairie de Yopougon vous informe, vous divertit et vous accompagne au quotidien. Actualités communales, musique, débats citoyens et proximité : votre radio, à l'écoute de tous les Yopougonnais.</p>
+                <div class="hero-buttons">
+                    <a href="#programme" class="btn btn-primary">
+                        <i class="fas fa-calendar-day"></i> Voir le programme
+                    </a>
+                    <a href="#facebook" class="btn btn-outline">
+                        <i class="fab fa-facebook"></i> Nous suivre
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="18" data-suffix="h/24">0</span>
+                        <div class="stat-label">Antenne</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="12" data-suffix="+">0</span>
+                        <div class="stat-label">Émissions</div>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="8" data-suffix="">0</span>
+                        <div class="stat-label">Années d'antenne</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="radio-visual">
+                <div class="radio-dial">
+                    <div class="radio-dial-orbit">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="radio-dial-core">
+                        <button class="play-btn" id="heroPlayBtn" aria-label="Écouter Radio Yopougon en direct">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <div class="freq-big">94.5 FM</div>
+                        <div class="freq-sub">Écouter en direct</div>
+                        <div class="equalizer">
+                            <span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- INFORMATIONS GÉNÉRALES -->
+    <section class="radio-info" id="info">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">À propos</div>
+                <h2>Informations générales</h2>
+                <p>Née de la volonté municipale de rapprocher l'administration des habitants, Radio Yopougon est un média de proximité au service de toute la commune.</p>
+            </div>
+
+            <div class="radio-info-grid">
+                <div class="radio-info-text fade-in">
+                    <p>Radio Yopougon 94.5 FM est la radio de proximité de la Mairie de Yopougon. Depuis sa création, elle accompagne les Yopougonnais au quotidien en relayant l'actualité communale, les décisions du Conseil Municipal et la vie des 32 quartiers de la commune.</p>
+                    <p>Généraliste et communautaire, notre grille mêle information locale, musique, divertissement et espaces d'expression citoyenne. Nous donnons la parole aux associations, aux jeunes, aux femmes et aux acteurs économiques de Yop City, dans un esprit de proximité, de service public et de convivialité.</p>
+                    <div class="radio-mission-box">
+                        <h4><i class="fas fa-bullseye"></i> Notre mission</h4>
+                        <p>Informer, fédérer et divertir la population de Yopougon en valorisant les initiatives locales et en facilitant le dialogue entre la municipalité et les citoyens.</p>
+                    </div>
+                </div>
+
+                <div class="info-cards-grid fade-in">
+                    <div class="info-card">
+                        <div class="icon"><i class="fas fa-satellite-dish"></i></div>
+                        <h4>Fréquence</h4>
+                        <p>94.5 FM, écoutable dans toute la commune de Yopougon et ses environs.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon"><i class="fas fa-clock"></i></div>
+                        <h4>Antenne</h4>
+                        <p>Diffusion tous les jours de 6h00 à 00h00, 7 jours sur 7.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Studio</h4>
+                        <p>Immeuble de la Mairie de Yopougon, Rue Princesse, Abidjan.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon"><i class="fas fa-phone-volume"></i></div>
+                        <h4>Antenne ouverte</h4>
+                        <p>Participez en direct au +225 27 23 45 28 21 pendant nos émissions interactives.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-cta-row fade-in">
+                <a href="#programme" class="btn btn-primary">
+                    <i class="fas fa-calendar-day"></i> Consulter le programme
+                </a>
+                <a href="index.html#contact" class="btn btn-outline" style="color: var(--primary); border-color: var(--primary);">
+                    <i class="fas fa-envelope-open-text"></i> Contacter la rédaction
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMME DE LA RADIO -->
+    <section class="radio-programme" id="programme">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">Grille des programmes</div>
+                <h2 style="color:rgba(237, 125, 49);">Programme de la Radio</h2>
+                <p>Retrouvez chaque jour nos émissions phares : information, culture, débats citoyens et divertissement.</p>
+            </div>
+
+            <div class="day-tabs fade-in">
+                <button class="day-tab active" data-day="lundi">Lundi</button>
+                <button class="day-tab" data-day="mardi">Mardi</button>
+                <button class="day-tab" data-day="mercredi">Mercredi</button>
+                <button class="day-tab" data-day="jeudi">Jeudi</button>
+                <button class="day-tab" data-day="vendredi">Vendredi</button>
+                <button class="day-tab" data-day="samedi">Samedi</button>
+                <button class="day-tab" data-day="dimanche">Dimanche</button>
+            </div>
+
+            <!-- LUNDI -->
+            <div class="schedule-panel active" data-day="lundi">
+                <div class="schedule-item is-live">
+                    <div class="schedule-time">06h00 <small>07h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Matin <span class="live-pill">En direct</span></h4>
+                        <p>Le réveil de Yopougon : actualité, météo et infos pratiques avec Aïssata K.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h00 <small>12h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal de Yopougon</h4>
+                        <p>L'essentiel de l'actualité communale et nationale.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">15h00 <small>16h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Éco</h4>
+                        <p>Emploi, entrepreneuriat et opportunités économiques locales.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">19h00 <small>20h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-comments"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Débat</h4>
+                        <p>La propreté dans nos quartiers : quelles solutions citoyennes ?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MARDI -->
+            <div class="schedule-panel" data-day="mardi">
+                <div class="schedule-item">
+                    <div class="schedule-time">06h00 <small>07h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Matin</h4>
+                        <p>Le réveil de Yopougon : actualité, météo et infos pratiques.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h00 <small>12h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal de Yopougon</h4>
+                        <p>L'essentiel de l'actualité communale et nationale.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">14h00 <small>15h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-heartbeat"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Santé</h4>
+                        <p>Prévention et conseils santé avec les centres de santé communaux.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">18h30 <small>20h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-music"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Rythmes</h4>
+                        <p>Le meilleur de la musique ivoirienne et africaine.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MERCREDI -->
+            <div class="schedule-panel" data-day="mercredi">
+                <div class="schedule-item">
+                    <div class="schedule-time">06h00 <small>07h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Matin</h4>
+                        <p>Le réveil de Yopougon : actualité, météo et infos pratiques.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h00 <small>12h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal de Yopougon</h4>
+                        <p>L'essentiel de l'actualité communale et nationale.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">15h30 <small>17h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-child"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Kids</h4>
+                        <p>L'émission dédiée aux enfants : jeux, contes et éducation.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">19h00 <small>20h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-landmark"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Citoyen</h4>
+                        <p>Décisions du Conseil Municipal et vie institutionnelle expliquées.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JEUDI -->
+            <div class="schedule-panel" data-day="jeudi">
+                <div class="schedule-item">
+                    <div class="schedule-time">06h00 <small>07h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Matin</h4>
+                        <p>Le réveil de Yopougon : actualité, météo et infos pratiques.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h00 <small>12h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal de Yopougon</h4>
+                        <p>L'essentiel de l'actualité communale et nationale.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">14h30 <small>16h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-futbol"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Sport</h4>
+                        <p>L'actualité sportive de la commune et de ses clubs.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">19h00 <small>20h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-people-group"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Associations</h4>
+                        <p>Coup de projecteur sur les associations et initiatives locales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VENDREDI -->
+            <div class="schedule-panel" data-day="vendredi">
+                <div class="schedule-item">
+                    <div class="schedule-time">06h00 <small>07h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-sun"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Matin</h4>
+                        <p>Le réveil de Yopougon : actualité, météo et infos pratiques.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h00 <small>12h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal de Yopougon</h4>
+                        <p>L'essentiel de l'actualité communale et nationale.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">15h00 <small>16h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-mosque"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Spiritualité</h4>
+                        <p>Espace interconfessionnel dédié à la paix sociale et au vivre-ensemble.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">20h00 <small>22h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-compact-disc"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Week-end Party</h4>
+                        <p>Lancement du week-end en musique avec les tubes du moment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SAMEDI -->
+            <div class="schedule-panel" data-day="samedi">
+                <div class="schedule-item">
+                    <div class="schedule-time">08h00 <small>09h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-broom"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Propre</h4>
+                        <p>Salubrité, environnement et bonnes pratiques citoyennes.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">11h00 <small>13h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-utensils"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Gourmand</h4>
+                        <p>Gastronomie locale, recettes et adresses gourmandes de la commune.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">16h00 <small>18h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-futbol"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Sport Week-end</h4>
+                        <p>Résultats et résumés en direct des rencontres sportives locales et nationales.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">20h00 <small>23h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-star"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Talents</h4>
+                        <p>Concours et découverte des jeunes talents artistiques de Yopougon.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DIMANCHE -->
+            <div class="schedule-panel" data-day="dimanche">
+                <div class="schedule-item">
+                    <div class="schedule-time">08h00 <small>09h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-place-of-worship"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Foi & Valeurs</h4>
+                        <p>Retransmissions et messages spirituels pour bien démarrer la semaine.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">12h30 <small>13h30</small></div>
+                    <div class="schedule-icon"><i class="fas fa-newspaper"></i></div>
+                    <div class="schedule-body">
+                        <h4>Le Journal du Dimanche</h4>
+                        <p>Résumé hebdomadaire de l'actualité de la commune.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">15h00 <small>17h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-house-user"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop en Famille</h4>
+                        <p>Émission conviviale dédiée à la famille et à la jeunesse.</p>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-time">18h30 <small>20h00</small></div>
+                    <div class="schedule-icon"><i class="fas fa-music"></i></div>
+                    <div class="schedule-body">
+                        <h4>Yop Ambiance</h4>
+                        <p>Retour en musique sur les temps forts de la semaine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPÉCIAL VACANCES -->
+    <section class="radio-vacances" id="vacances">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">Édition spéciale</div>
+                <h2>Spécial Vacances 2026</h2>
+                <p>Pendant les grandes vacances, Radio Yopougon change de rythme pour occuper, informer et divertir petits et grands.</p>
+            </div>
+
+            <div class="vacances-banner fade-in">
+                <div class="vacances-banner-left">
+                    <div class="icon"><i class="fas fa-umbrella-beach"></i></div>
+                    <div>
+                        <h3>Programme spécial vacances actif</h3>
+                        <p>Du 1er juillet au 31 août 2026 — grille aménagée tous les jours dès 9h00.</p>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn btn-outline">
+                    <i class="fas fa-user-plus"></i> Inscrire mon enfant
+                </a>
+            </div>
+
+            <div class="vacances-grid">
+                <div class="vacances-card fade-in">
+                    <span class="badge">Enfants</span>
+                    <div class="icon"><i class="fas fa-child-reaching"></i></div>
+                    <h3>Yop Kids Vacances</h3>
+                    <p>Contes, jeux radiophoniques et ateliers d'éveil pour occuper les enfants tous les matins à 9h00.</p>
+                    <a href="index.html#contact" class="link">S'inscrire <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="vacances-card fade-in">
+                    <span class="badge">Concours</span>
+                    <div class="icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Jeu Concours "Vacances à Yop City"</h3>
+                    <p>Testez vos connaissances sur votre commune et gagnez de nombreux lots chaque semaine, en direct à l'antenne.</p>
+                    <a href="index.html#contact" class="link">Participer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="vacances-card fade-in">
+                    <span class="badge">Camp d'été</span>
+                    <div class="icon"><i class="fas fa-campground"></i></div>
+                    <h3>Colonie Radio Junior</h3>
+                    <p>Nos jeunes reporters en herbe s'initient au métier de journaliste radio dans nos studios, du lundi au vendredi.</p>
+                    <a href="index.html#contact" class="link">Découvrir <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="vacances-card fade-in">
+                    <span class="badge">Musique</span>
+                    <div class="icon"><i class="fas fa-headphones-alt"></i></div>
+                    <h3>Yop Vacances Party</h3>
+                    <p>Chaque après-midi, deux heures de musique non-stop pour accompagner les vacances de toute la famille.</p>
+                    <a href="#programme" class="link">Voir les horaires <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="vacances-card fade-in">
+                    <span class="badge">Découverte</span>
+                    <div class="icon"><i class="fas fa-map-location-dot"></i></div>
+                    <h3>Yop Balade</h3>
+                    <p>Reportages sonores à la découverte des sites, activités et loisirs à faire en famille dans la commune.</p>
+                    <a href="index.html#contact" class="link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="vacances-card fade-in">
+                    <span class="badge">Solidarité</span>
+                    <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3>Yop Cœur Vacances</h3>
+                    <p>Actions solidaires et dons de fournitures scolaires pour préparer sereinement la rentrée 2026-2027.</p>
+                    <a href="index.html#contact" class="link">Participer <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACEBOOK -->
+    <section class="radio-facebook" id="facebook">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">Communauté</div>
+                <h2 style="color:rgba(237, 125, 49);">Suivez-nous sur Facebook</h2>
+                <p>Rejoignez la communauté Radio Yopougon pour ne rien manquer de nos émissions, jeux concours et actualités en avant-première.</p>
+            </div>
+
+            <div class="fb-stats-row fade-in">
+                <div class="fb-stat">
+                    <i class="fab fa-facebook"></i>
+                    <div class="count" data-count="48500" data-suffix="+">0</div>
+                    <div class="count-label">Abonnés</div>
+                </div>
+                <div class="fb-stat">
+                    <i class="fas fa-thumbs-up"></i>
+                    <div class="count" data-count="45200" data-suffix="+">0</div>
+                    <div class="count-label">Mentions J'aime</div>
+                </div>
+                <div class="fb-stat">
+                    <i class="fas fa-eye"></i>
+                    <div class="count" data-count="120000" data-suffix="+">0</div>
+                    <div class="count-label">Vues moyennes / mois</div>
+                </div>
+                <div class="fb-stat">
+                    <i class="fas fa-comments"></i>
+                    <div class="count" data-count="3800" data-suffix="+">0</div>
+                    <div class="count-label">Interactions / semaine</div>
+                </div>
+            </div>
+
+            <div class="fb-content-grid">
+                <div class="fb-page-card fade-in">
+                    <div class="fb-cover">
+                        <div class="fb-page-avatar">RY</div>
+                    </div>
+                    <div class="fb-page-body">
+                        <h3><i class="fab fa-facebook"></i> Radio Yopougon 94.5 FM</h3>
+                        <div class="handle">@RadioYopougonOfficiel</div>
+                        <p>Page officielle de Radio Yopougon, la radio de la Mairie de Yopougon. Actualités, direct, jeux concours et vie de la commune.</p>
+                        <a href="#" target="_blank" rel="noopener" class="btn btn-facebook">
+                            <i class="fab fa-facebook-f"></i> Suivre la page
+                        </a>
+                    </div>
+                </div>
+
+                <div class="fb-posts">
+                    <div class="fb-post fade-in">
+                        <div class="fb-post-head">
+                            <div class="fb-post-avatar">RY</div>
+                            <div>
+                                <h5>Radio Yopougon 94.5 FM</h5>
+                                <span>Il y a 2 jours</span>
+                            </div>
+                        </div>
+                        <p>📢 Le programme spécial vacances 2026 est disponible ! Retrouvez tous les horaires de Yop Kids Vacances et de la Colonie Radio Junior sur notre page.</p>
+                        <div class="fb-post-meta">
+                            <span><i class="fab fa-facebook"></i> 512</span>
+                            <span><i class="fas fa-comment"></i> 84</span>
+                            <span><i class="fas fa-share"></i> 63</span>
+                        </div>
+                    </div>
+                    <div class="fb-post fade-in">
+                        <div class="fb-post-head">
+                            <div class="fb-post-avatar">RY</div>
+                            <div>
+                                <h5>Radio Yopougon 94.5 FM</h5>
+                                <span>Il y a 5 jours</span>
+                            </div>
+                        </div>
+                        <p>🎙️ Ce soir dans Yop Débat : la propreté dans nos quartiers. Appelez-nous en direct au 27 23 45 28 21 pour partager votre avis !</p>
+                        <div class="fb-post-meta">
+                            <span><i class="fab fa-facebook"></i> 389</span>
+                            <span><i class="fas fa-comment"></i> 57</span>
+                            <span><i class="fas fa-share"></i> 41</span>
+                        </div>
+                    </div>
+                    <div class="fb-post fade-in">
+                        <div class="fb-post-head">
+                            <div class="fb-post-avatar">RY</div>
+                            <div>
+                                <h5>Radio Yopougon 94.5 FM</h5>
+                                <span>Il y a 1 semaine</span>
+                            </div>
+                        </div>
+                        <p>🏆 Bravo à tous les participants du jeu concours "Vacances à Yop City" ! Les gagnants de la semaine seront annoncés ce vendredi dans Yop Matin.</p>
+                        <div class="fb-post-meta">
+                            <span><i class="fab fa-facebook"></i> 674</span>
+                            <span><i class="fas fa-comment"></i> 112</span>
+                            <span><i class="fas fa-share"></i> 95</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINALE -->
+    <section class="radio-cta-final">
+        <div class="container">
+            <div class="cta-box fade-in">
+                <h2>Écoutez Radio Yopougon partout</h2>
+                <p>Sur votre poste FM, en streaming ou sur Facebook : restez connectés à la voix de votre commune, où que vous soyez.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" id="ctaPlayBtn" onclick="document.getElementById('heroPlayBtn').click(); window.scrollTo({top:0, behavior:'smooth'});">
+                        <i class="fas fa-play"></i> Écouter en direct
+                    </button>
+                    <a href="#" target="_blank" rel="noopener" class="btn btn-outline">
+                        <i class="fab fa-facebook"></i> Suivre sur Facebook
+                    </a>
+                    <a href="index.html#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope-open-text"></i> Contacter la radio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">
+                            <div class="logo-icon"><img src="images/logo-2.jpg" style="height: 100%; width: 100%; object-fit: cover;"></div>
+                        </div>
+                        <div class="logo-text">
+                            <h1>Mairie de Yopougon</h1>
+                            <span>Commune d'Abidjan</span>
+                        </div>
+                    </a>
+                    <p>La Mairie de Yopougon s'engage au service de la population yopougonnaise pour un développement harmonieux, inclusif et durable de notre commune.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="index.html#demande"><i class="fas fa-chevron-right"></i> Services municipaux</a></li>
+                        <li><a href="radio.html#info"><i class="fas fa-chevron-right"></i> Radio Yopougon</a></li>
+                        <li><a href="radio.html#programme"><i class="fas fa-chevron-right"></i> Programme radio</a></li>
+                        <li><a href="index.html#actualites"><i class="fas fa-chevron-right"></i> Actualités</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Marchés publics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="maire_adama_bictogo.html"><i class="fas fa-chevron-right"></i> Le Maire</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Conseil municipal</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Budget communal</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Délibérations</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Organigramme</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Historique</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rue Princesse, Yopougon<br>Abidjan, Côte d'Ivoire</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+225 27 23 45 28 20</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@yopougon.ci</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lun - Ven : 7h30 - 16h00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mairie de Yopougon. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Plan du site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MINI PLAYER FLOTTANT -->
+    <div class="mini-player" id="miniPlayer">
+        <button class="mini-player-btn" id="miniPlayerBtn" aria-label="Lecture / Pause">
+            <i class="fas fa-play"></i>
+        </button>
+        <div class="mini-player-info">
+            <strong>Radio Yopougon</strong>
+            <span>94.5 FM — En direct</span>
+        </div>
+        <div class="mini-player-eq">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/radio.js"></script>
+</body>
+</html>

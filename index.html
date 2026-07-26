@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel de la Mairie de Yopougon - Commune de la ville d'Abidjan, Côte d'Ivoire">
+    <title>Mairie de Yopougon - Site Officiel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +225 27 23 45 28 20</span>
+                <span><i class="fas fa-envelope"></i> contact@yopougon.ci</span>
+                <span><i class="fas fa-clock"></i> Lun - Ven : 7h30 - 16h00</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><img src="images/logo-2.jpg" style="height: 100%; width: 100%; object-fit: cover;" alt="Logo Mairie de Yopougon"></div>
+                <div class="logo-text">
+                    <h1>Mairie de Yopougon</h1>
+                    <span>District d'Abidjan</span>
+                </div>
+            </a>
+
+            <div class="main-nav" id="mainNav">
+                <ul>
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Ma Mairie <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true" onclick="window.location.href='maire_adama_bictogo.html#maire'">
+                                    <span><i class="fas fa-user-tie item-icon"></i> Le Maire</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="maire_adama_bictogo.html#maire">Mot du Maire</a></li>
+                                    <li><a href="maire_adama_bictogo.html#biographie">Biographie</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                                    <span><i class="fas fa-sitemap item-icon"></i> Organisation politique et administrative</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="encoursdeconstruction.html">Secrétariat Général</a></li>
+                                    <li><a href="encoursdeconstruction.html">La Municipalité</a></li>
+                                    <li><a href="encoursdeconstruction.html">Le Conseil Municipal</a></li>
+                                    <li><a href="encoursdeconstruction.html">Commissions du Conseil Municipal</a></li>
+                                    <li><a href="encoursdeconstruction.html">Directions Techniques et Administratives</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                                    <span><i class="fas fa-newspaper item-icon"></i> Actualités de la commune</span>
+                                    <i class="fas fa-chevron-right chevron-flyout"></i>
+                                </button>
+                                <ul class="flyout-menu">
+                                    <li><a href="index.html#actualites">Actualités</a></li>
+                                    <li><a href="encoursdeconstruction.html">Vidéothèque</a></li>
+                                    <li><a href="encoursdeconstruction.html">Opportunités d'affaires</a></li>
+                                    <li><a href="encoursdeconstruction.html">Agenda</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-diagram-project item-icon"></i> Nos Projets</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="https://guichet.yopougon.ci/#/connexion">Services en ligne</a></li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Radio Yopougon <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="radio.html"><i class="fas fa-circle-info item-icon"></i> Informations générales</a></li>
+                            <li><a href="radio.html#programme"><i class="fas fa-list item-icon"></i> Programme de la radio</a></li>
+                            <li><a href="radio.html#vacances"><i class="fas fa-umbrella-beach item-icon"></i> Spécial vacances</a></li>
+                            <li><a href="radio.html#facebook"><i class="fab fa-facebook item-icon"></i> Facebook</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true">
+                            Yop, Ma Commune <i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-scroll item-icon"></i> Histoire</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-landmark item-icon"></i> Histoire politique</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-map item-icon"></i> Géographie</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-people-group item-icon"></i> Gouvernance participative</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-chart-line item-icon"></i> Économie</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-briefcase item-icon"></i> Emplois</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-futbol item-icon"></i> Sport et culture</a></li>
+                            <li><a href="encoursdeconstruction.html"><i class="fas fa-umbrella-beach item-icon"></i> Tourisme et loisirs</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button class="nav-toggle" aria-expanded="false" aria-haspopup="true" onclick="window.location.href='contact.html'">
+                            Contacts<i class="fas fa-chevron-down chevron"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="contact.html#coordonnees"><i class="fas fa-map-marker-alt item-icon"></i> Coordonnées et plans d'accès</a></li>
+                            <li><a href="contact.html#formulaire"><i class="fas fa-envelope-open-text item-icon"></i> Formulaire de contact</a></li>
+                            <li><a href="contact.html#reseaux"><i class="fas fa-share-nodes item-icon"></i> Réseaux sociaux</a></li>
+                            <li><a href="contact.html#faq"><i class="fas fa-circle-question item-icon"></i> FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-cta"><a href="https://guichet.yopougon.ci/#/connexion">Démarches en ligne</a></li>
+                </ul>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="images/mairie-facadeè-1.jpg" alt="Panorama d'Abidjan">
+            </div>
+            <div class="hero-slide">
+                <img src="images/mairie-facade-2.jpg" alt="Vue aérienne d'Abidjan">
+            </div>
+            <div class="hero-slide">
+                <img src="images/mairie-facade-3.jpg" alt="Abidjan verdure">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-landmark"></i>
+                    République de Côte d'Ivoire
+                </div>
+                <h2>Bienvenue à la Mairie de <span>Yopougon</span></h2>
+                <p>Yopougon, surnommée « Yop City », est la plus grande commune de Côte d'Ivoire avec plus de 1,5 million d'habitants. Découvrez nos services, nos actions et notre engagement pour le bien-être de tous les Yopougonnais.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-concierge-bell"></i> Nos Services
+                    </a>
+                    <a href="#commune" class="btn btn-outline">
+                        <i class="fas fa-info-circle"></i> Découvrir la commune
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="number">1.5M+</div>
+                <div class="label">Habitants</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">153 km²</div>
+                <div class="label">Superficie</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">32</div>
+                <div class="label">Quartiers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS TICKER -->
+    <div class="news-ticker">
+        <div class="ticker-content">
+            <div class="ticker-item"><span class="ticker-dot"></span> Inscription aux écoles municipales ouverte pour la rentrée 2026-2027</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Travaux d'assainissement dans le quartier Sicobois — Avancement à 75%</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Conseil municipal extraordinaire le 28 juillet 2026 à 10h</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Programme de vaccination gratuit au Centre de Santé de Niangon</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Fête de la commune : 15 août 2026 — Inscription aux stands dès maintenant</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Nouveau centre culturel de Yopougon inauguré — Ouverture au public le 1er août</div>
+            <!-- Duplicate for seamless loop -->
+            <div class="ticker-item"><span class="ticker-dot"></span> Inscription aux écoles municipales ouverte pour la rentrée 2026-2027</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Travaux d'assainissement dans le quartier Sicobois — Avancement à 75%</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Conseil municipal extraordinaire le 28 juillet 2026 à 10h</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Programme de vaccination gratuit au Centre de Santé de Niangon</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Fête de la commune : 15 août 2026 — Inscription aux stands dès maintenant</div>
+            <div class="ticker-item"><span class="ticker-dot"></span> Nouveau centre culturel de Yopougon inauguré — Ouverture au public le 1er août</div>
+        </div>
+    </div>
+
+    <!-- MAIRE -->
+    <section class="maire" id="maire">
+        <div class="container">
+            <div class="maire-grid">
+                <div class="maire-photo fade-in">
+                    <img src="images/le-maire.png" alt="Maire de Yopougon" style="height: 45rem; width: 25rem;" >
+                </div>
+                <div class="maire-content fade-in">
+                    <div class="overline">Mot du Maire</div>
+                    <h2>M. Adama Bictogo</h2>
+                    <div class="title">Maire de la Commune de Yopougon (2023-2028)</div>
+                    <p>Chers frères et chères sœurs de Yopougon, chers visiteurs, </p>
+                    <p>Je suis heureux de vous accueillir sur le site officiel de la Mairie de Yopougon.</p>
+                    <p>Ce portail numérique est bien plus qu’une simple vitrine. Il est un outil de communication moderne, accessible et interactif, mis à votre disposition pour vous informer, vous accompagner dans vos démarches administratives et vous rapprocher de l’action municipale. Le site officiel de la Mairie de Yopougon traduit notre volonté de transparence, de proximité et d'efficacité pour un Yopougon plus accessible et dans l'air du temps, dans un contexte où les moyens de communication numériques s'imposent souverainement.</p>
+                    <div class="maire-quote">
+                        « Ensemble, construisons un Yopougon moderne, inclusif et prospère, à la hauteur des ambitions de sa population dynamique. Notre vision est celle d'une commune éducatrice et créative, au service de la cohésion sociale. »
+                    </div>
+                    <p>Je vous invite donc à explorer notre site, à utiliser ses services, à consulter régulièrement les informations publiées, et surtout à nous faire part de vos suggestions. Car, c'est ensemble, avec vous, que nous réussirons à faire rayonner davantage notre chère commune si dynamique, tellement créative, solidaire et pleine de potentiel.</p>
+                    <a href="#" class="btn btn-primary" style="margin-top: 15px;">
+                        <i class="fas fa-arrow-right"></i> En savoir plus
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACTUALITES -->
+    <section class="actualites" id="actualites">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">Restez informés</div>
+                <h2 style="color:rgba(237, 125, 49);">Actualités de la Commune</h2>
+                <p>Retrouvez les dernières nouvelles, événements et décisions du Conseil Municipal de Yopougon.</p>
+            </div>
+            <div class="actualites-grid">
+                <div class="actu-card fade-in">
+                    <div class="actu-img">
+                        <img src="images/actualites/1.jpg" alt="Nouvelle mairie centrale">
+                        <span class="actu-category">Développement</span>
+                    </div>
+                    <div class="actu-body">
+                        <div class="actu-date"><i class="fas fa-calendar-alt"></i> 15 Juillet 2026</div>
+                        <h3>𝐉-𝟐𝟎 𝐋𝐞𝐬 𝐜𝐡𝐚𝐧𝐭𝐢𝐞𝐫𝐬 𝐬'𝐚𝐜𝐜𝐞́𝐥𝐞̀𝐫𝐞𝐧𝐭 𝐚̀ 𝐘𝐨𝐩𝐨𝐮𝐠𝐨𝐧 𝐩𝐨𝐮𝐫 𝐥𝐚 𝐟𝐞̂𝐭𝐞 𝐝𝐞 𝐥'𝐢𝐧𝐝𝐞́𝐩𝐞𝐧𝐝𝐚𝐧𝐜𝐞</h3>
+                        <p>À vingt jours de la Fête de l’Indépendance, le Ministre des Infrastructures et de l’Entretien Routier, M. Hien Yacouba Sié, a effectué une visite d’inspection des chantiers</p>
+                        <a href="#" class="actu-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="actu-card fade-in">
+                    <div class="actu-img">
+                        <img src="images/actualites/2.jpg" alt="Marché rénové">
+                        <span class="actu-category">Mobilisation</span>
+                    </div>
+                    <div class="actu-body">
+                        <div class="actu-date"><i class="fas fa-calendar-alt"></i> 08 Juillet 2026</div>
+                        <h3>𝐅𝐞̂𝐭𝐞 𝐝𝐞 𝐥'𝐈𝐧𝐝𝐞́𝐩𝐞𝐧𝐝𝐚𝐧𝐜𝐞 𝟐𝟎𝟐𝟔 : 𝐥𝐞 𝐃𝐞́𝐩𝐮𝐭𝐞́-𝐌𝐚𝐢𝐫𝐞 𝐀𝐝𝐚𝐦𝐚 𝐁𝐢𝐜𝐭𝐨𝐠𝐨 𝐦𝐨𝐛𝐢𝐥𝐢𝐬𝐞 𝐥𝐚 𝐩𝐫𝐞𝐬𝐬𝐞</h3>
+                        <p>À quelques semaines de la célébration de la 66ᵉ Fête de l'Indépendance qui se tiendra cette année à Yopougon, le Député-Maire Adama Bictogo a rencontré, </p>
+                        <a href="#" class="actu-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="actu-card fade-in">
+                    <div class="actu-img">
+                        <img src="images/actualites/3.jpg" alt="Événement culturel">
+                        <span class="actu-category">Inspection</span>
+                    </div>
+                    <div class="actu-body">
+                        <div class="actu-date"><i class="fas fa-calendar-alt"></i> 01 Juillet 2026</div>
+                        <h3>𝐕𝐈𝐒𝐈𝐓𝐄 𝐃𝐄 𝐓𝐄𝐑𝐑𝐀𝐈𝐍 𝐃𝐔 𝐏𝐑𝐄𝐌𝐈𝐄𝐑 𝐀𝐃𝐉𝐎𝐈𝐍𝐓 𝐀𝐔 𝐌𝐀𝐈𝐑𝐄</h3>
+                        <p>Ce lundi 13 juillet 2026, le premier adjoint au maire de la commune M. Yaya Doumbia-Officiel   s’est rendu à Siporex, Cosmos, Ficgayo et Selmer Tanti Mago pour voir de plus près l’avancée des travaux dans ces quartiers.</p>
+                        <a href="#" class="actu-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEMANDE EN LIGNE -->
+    <section class="demande-en-ligne" id="demande">
+        <div class="container">
+            <div class="demande-header fade-in">
+                <div class="overline">Services en ligne</div>
+                <h2>Demande en Ligne</h2>
+                <p>Effectuez vos demandes administratives de manière simple et rapide en ligne. Nos services sont disponibles 24h/24, 7j/7.</p>
+            </div>
+            <div class="demande-grid">
+                <div class="demande-card fade-in">
+                    <div class="demande-card-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>État Civil</h3>
+                    <p>Demandez vos certificats de naissance, mariage, décès et autres documents d'état civil en ligne.</p>
+                    <a href="#" class="demande-card-btn">
+                        <span>Faire une demande</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="demande-card fade-in">
+                    <div class="demande-card-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Soutien Scolaire</h3>
+                    <p>Accédez aux programmes de soutien scolaire et inscrivez-vous aux cours et formations disponibles.</p>
+                    <a href="#" class="demande-card-btn">
+                        <span>Faire une demande</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="demande-card fade-in">
+                    <div class="demande-card-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Mariage</h3>
+                    <p>Déposez votre dossier de mariage et suivez votre demande en ligne facilement.</p>
+                    <a href="#" class="demande-card-btn">
+                        <span>Faire une demande</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="numbers">
+        <div class="container">
+            <div class="numbers-heading fade-in">
+                <h2>J'<span class="heart">❤️</span>YOP CITY</h2>
+            </div>
+            <div class="numbers-grid">
+                <div class="number-card fade-in">
+                    <i class="fas fa-users"></i>
+                    <div class="count">1 571 065</div>
+                    <div class="count-label">Habitants recensés</div>
+                </div>
+                <div class="number-card fade-in">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="count">32</div>
+                    <div class="count-label">Quartiers</div>
+                </div>
+                <div class="number-card fade-in">
+                    <i class="fas fa-building"></i>
+                    <div class="count">8</div>
+                    <div class="count-label">Arrondissements</div>
+                </div>
+                <div class="number-card fade-in">
+                    <i class="fas fa-home"></i>
+                    <div class="count">14</div>
+                    <div class="count-label">Villages historiques</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <!-- <section class="services" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">À votre service</div>
+                <h2>Nos Services Municipaux</h2>
+                <p>La mairie de Yopougon met à votre disposition une gamme complète de services pour faciliter vos démarches administratives et améliorer votre quotidien.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>État Civil</h3>
+                    <p>Actes de naissance, mariage, décès, certificats divers. Délivrance rapide de vos documents officiels.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3>Urbanisme</h3>
+                    <p>Permis de construire, autorisations d'aménager, plans d'occupation des sols et réglementation foncière.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Éducation</h3>
+                    <p>Inscriptions scolaires, bourses municipales, cantines scolaires et soutien aux établissements éducatifs.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Santé Publique</h3>
+                    <p>Centres de santé communautaires, campagnes de vaccination, hygiène et assainissement public.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-road"></i></div>
+                    <h3>Voirie & Infrastructure</h3>
+                    <p>Entretien des routes, éclairage public, réhabilitation des espaces publics et ouvrages communaux.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Environnement</h3>
+                    <p>Gestion des déchets, espaces verts, reboisement et programmes de développement durable.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-users"></i></div>
+                    <h3>Affaires Sociales</h3>
+                    <p>Aide aux familles vulnérables, programmes d'insertion, soutien aux personnes âgées et handicapées.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Sécurité</h3>
+                    <p>Police municipale, sécurité des marchés, coordination avec les forces de l'ordre et prévention.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ABOUT -->
+    <!-- <section class="about" id="commune">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images fade-in">
+                    <div class="about-badge">
+                        <span class="number">1970</span>
+                        <span class="text">Année de création</span>
+                    </div>
+                    <img src="images/yop.jpg" alt="La commune de Yopougon" class="about-img-main">
+                    <img src="images/marche-yopougon.jpg" alt="Marché de Yopougon" class="about-img-secondary">
+                </div>
+                <div class="about-content fade-in">
+                    <div class="overline">À propos</div>
+                    <h2>Découvrez la Commune de Yopougon</h2>
+                    <p>Yopougon, souvent appelée « Yop City » ou « Poy », est l'une des treize communes du District Autonome d'Abidjan. Avec ses 153 km² de superficie et plus de 1,5 million d'habitants, elle est la plus grande et la plus peuplée commune de Côte d'Ivoire.</p>
+                    <p>Le nom « Yopougon » signifie « champs de Yopou », du nom d'un patriarche qui offrit généreusement ses terres aux habitants. Aujourd'hui, la commune allie dynamisme économique, diversité culturelle et développement urbain.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-industry"></i>
+                            <span>2 zones industrielles</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-school"></i>
+                            <span>Des écoles de qualité</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-tree"></i>
+                            <span>Forêt du Banco</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-water"></i>
+                            <span>Lagune Ébrié</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-hospital"></i>
+                            <span>CHU de Yopougon</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-subway"></i>
+                            <span>Autoroute du Nord</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <!-- VIDEO SECTION -->
+    <!-- <section class="video-section">
+        <div class="container">
+            <div class="video-grid">
+                <div class="video-container fade-in">
+                    <img src="images/abidjan-bridge.jpg" alt="Vidéo présentation de Yopougon">
+                    <div class="play-btn" onclick="window.open('https://www.youtube.com/results?search_query=yopougon+abidjan+documentaire', '_blank')">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-content fade-in">
+                    <div class="overline">Vidéo</div>
+                    <h2>Yopougon en Images</h2>
+                    <p>Découvrez la richesse et la diversité de notre commune à travers des reportages vidéo mettant en lumière nos projets, nos réalisations et la vie quotidienne des Yopougonnais.</p>
+                    <p>De la vitalité de nos marchés à la modernité de nos infrastructures, en passant par la richesse de notre patrimoine culturel, Yopougon ne cesse de se transformer.</p>
+                    <div class="video-highlights">
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Projets municipaux</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Vie culturelle</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Infrastructures</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Développement</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <!-- GALERIE -->
+    <!-- <section class="galerie">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="overline">Galerie photos</div>
+                <h2 style="color:rgba(237, 125, 49);">Yopougon en Photos</h2>
+                <p>Explorez notre commune à travers une sélection de photographies illustrant sa beauté et sa dynamique.</p>
+            </div>
+            <div class="galerie-grid fade-in">
+                <div class="galerie-item">
+                    <img src="images/yopougon/preparatifs-independance.jpg" alt="Skyline d'Abidjan">
+                    <div class="overlay"><span>Préparatifs pour la fête de l'indépendance</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/ambiance-bar.jpg" alt="Pont d'Abidjan">
+                    <div class="overlay"><span>ambiance dans les bars</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/ambiance-maquis.jpg" alt="Mairie de Yopougon">
+                    <div class="overlay"><span>Ambiance dans les maquis</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/cosmos.jpg" alt="Vue aérienne">
+                    <div class="overlay"><span>Centre commercial Cosmos</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/transformation.jpg" alt="Abidjan verdoyante">
+                    <div class="overlay"><span>Yopougon se transforme</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/sensibilisation.jpg" alt="Pont d'Abidjan">
+                    <div class="overlay"><span>Sensibilisation de tous</span></div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/yopougon/inspection.jpg" alt="Mairie de Yopougon">
+                    <div class="overlay"><span>Inspection du Maire sur le terrain</span></div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <div class="overline">Contactez-nous</div>
+                    <h2>Restons en Contact</h2>
+                    <p>N'hésitez pas à nous contacter pour toute question, suggestion ou demande d'information. Notre équipe est à votre écoute du lundi au vendredi.</p>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-item-text">
+                            <h4>Adresse</h4>
+                            <p>Rue Princesse, Yopougon<br>Abidjan, Côte d'Ivoire</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact-item-text">
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+22527234528">+225 27 23 45 28 20</a></p>
+                            <p><a href="tel:+22527234516">+225 27 23 45 16 75</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-item-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@yopougon.ci">contact@yopougon.ci</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-item-text">
+                            <h4>Horaires d'ouverture</h4>
+                            <p>Lundi - Vendredi : 7h30 - 16h00<br>Samedi : 8h00 - 12h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Nom complet</label>
+                                <input type="text" placeholder="Votre nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="votre@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Objet</label>
+                            <select required>
+                                <option value="">Sélectionnez un objet</option>
+                                <option>Demande d'information</option>
+                                <option>État civil</option>
+                                <option>Urbanisme</option>
+                                <option>Réclamation</option>
+                                <option>Suggestion</option>
+                                <option>Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <!-- <div class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.123!2d-4.0825!3d5.3489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMjAnNTYuMCJOIDTCsDAwJzQyLjAiVw!5e0!3m2!1sfr!2sci!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+    </div> -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <div class="logo-icon"><img src="images/logo-2.jpg" style="height: 100%; width: 100%; object-fit: cover;"></div>
+                        </div>
+                        <div class="logo-text">
+                            <h1>Mairie de Yopougon</h1>
+                            <span>Commune d'Abidjan</span>
+                        </div>
+                    </a>
+                    <p>La Mairie de Yopougon s'engage au service de la population yopougonnaise pour un développement harmonieux, inclusif et durable de notre commune.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Services municipaux</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> État civil</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Urbanisme</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Actualités</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Marchés publics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Le Maire</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Conseil municipal</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Budget communal</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Délibérations</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Organigramme</a></li>
+                        <li><a href="encoursdeconstruction.html"><i class="fas fa-chevron-right"></i> Historique</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rue Princesse, Yopougon<br>Abidjan, Côte d'Ivoire</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+225 27 23 45 28 20</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@yopougon.ci</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lun - Ven : 7h30 - 16h00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mairie de Yopougon. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="encoursdeconstruction.html">Mentions légales</a>
+                    <a href="encoursdeconstruction.html">Politique de confidentialité</a>
+                    <a href="encoursdeconstruction.html">Plan du site</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
